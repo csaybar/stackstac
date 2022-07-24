@@ -1,5 +1,6 @@
 from __future__ import annotations
-from typing import Optional, Protocol, Tuple, Type, TYPE_CHECKING, TypeVar, Union
+from typing_extensions import Protocol, TypedDict
+from typing import Optional, Tuple, Type, TYPE_CHECKING, TypeVar, Union
 
 import numpy as np
 
