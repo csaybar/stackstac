@@ -3,7 +3,8 @@ from __future__ import annotations
 import logging
 import threading
 import warnings
-from typing import TYPE_CHECKING, Optional, Protocol, Tuple, Type, TypedDict, Union
+from typing_extensions import Protocol, TypedDict
+from typing import TYPE_CHECKING, Optional, Tuple, Type, Union
 
 import numpy as np
 import rasterio as rio
